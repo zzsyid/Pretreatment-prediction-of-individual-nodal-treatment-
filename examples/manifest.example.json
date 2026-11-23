@@ -1,0 +1,18 @@
+[
+  {
+    "id": "example_subject_node_A",
+    "patient_id": "example_subject",
+    "node_id": "A",
+    "region": 1,
+    "label": 1,
+    "mri_physical_volume": 500.0,
+    "ct_physical_volume": 500.0,
+    "T1": "example_subject/T1.nii.gz",
+    "T2": "example_subject/T2.nii.gz",
+    "T1CE": "example_subject/T1CE.nii.gz",
+    "CT": "example_subject/CT.nii.gz",
+    "PET": "example_subject/PET.nii.gz",
+    "MRI_mask": "example_subject/MRI_mask.nii.gz",
+    "CT_mask": "example_subject/CT_mask.nii.gz"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "release": "Final V9 implementation only",
+  "source_implementations": 1,
+  "clinical_data_included": false,
+  "real_cohort_manifests_included": false,
+  "weights_or_intermediate_checkpoints_included": false,
+  "repository_history_included": false,
+  "absolute_machine_paths_included": false,
+  "checks": {
+    "Python38_syntax": true,
+    "teacher_student_CPU_smoke": true,
+    "final_weight_schema_compatibility": true,
+    "forward_equivalence_max_abs_error": 0.0,
+    "preprocessing_equivalence": true,
+    "full_five_phase_synthetic_training_and_evaluation": true,
+    "unlabelled_MRI_CT_only_inference": true,
+    "inference_probability_max_abs_error": 0.0,
+    "classic_CNN_forward_backward": true,
+    "radiomics_fit_and_test": true,
+    "fixed_prediction_comparison_CLI": true
+  },
+  "test_data": "Entirely synthetic arrays, masks and subject identifiers; no scientific performance claims"
+}

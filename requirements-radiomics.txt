@@ -1,0 +1,5 @@
+-r requirements.txt
+pyradiomics==3.0.1
+SimpleITK==2.4.0
+PyWavelets==1.4.1
+pykwalify==1.8.0
